@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Beautiful Princess</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="heart-field" id="heartField"></div>
+    <div class="particle-field" id="particleField"></div>
+  </div>
+
+  <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <div class="burst-layer" id="burstLayer" aria-hidden="true"></div>
+  <div class="heart-cursor" id="heartCursor" aria-hidden="true">♡</div>
+
+  <div class="page-shell" id="pageShell">
+    <section class="opening-scene" id="opening" aria-label="Opening love letter">
+      <div class="envelope-stage">
+        <article class="letter-paper" id="letterPaper" aria-label="Love letter">
+          <h1>To My Beautiful Princess 💖</h1>
+          <div class="letter-copy">
+            <p>My Baby,</p>
+            <p>Every single day with you feels like the prettiest chapter of my life. Before you came into my world, I never knew someone could make ordinary moments feel so magical.</p>
+            <p>Your smile is my favorite sunrise, your laugh is my favorite melody, and your love is the safest place my heart has ever known.</p>
+            <p>Thank you for being patient with me, believing in me, and loving me even on the days I'm not at my best. I promise to keep choosing you, supporting your dreams, and making countless beautiful memories together.</p>
+            <p>If I could give you one thing, it would be the ability to see yourself through my eyes—because you'd realize how incredibly precious, kind, and beautiful you truly are.</p>
+            <p>I love you more than words will ever be able to describe.</p>
+            <p>Forever yours,<br><strong>Renzo ❤️</strong></p>
+          </div>
+        </article>
+
+        <div class="envelope" id="envelope">
+          <div class="envelope-shadow" aria-hidden="true"></div>
+          <div class="letter-peek" aria-hidden="true"></div>
+          <div class="envelope-back" aria-hidden="true"></div>
+          <div class="envelope-flap" aria-hidden="true"></div>
+          <div class="envelope-front" aria-hidden="true">
+            <span class="front-fold front-fold-left"></span>
+            <span class="front-fold front-fold-right"></span>
+            <span class="front-fold front-fold-bottom"></span>
+          </div>
+          <button class="seal-button romantic-trigger" id="openSeal" type="button" aria-label="Open the love letter">
+            <span class="seal-heart"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-story" id="mainStory">
+      <section class="love-section photos-section" aria-labelledby="photosTitle">
+        <div class="section-inner">
+          <h2 id="photosTitle">Our Little Hearts 📸</h2>
+          <div class="polaroid-scene">
+            <figure class="polaroid polaroid-left">
+              <div class="photo-window">
+                <img src="images/us1.png" alt="Our favorite smile together">
+              </div>
+              <figcaption>Renzo💕</figcaption>
+            </figure>
+
+            <div class="heart-connector" aria-hidden="true">
+              <span>♥</span>
+            </div>
+
+            <figure class="polaroid polaroid-right">
+              <div class="photo-window">
+                <img src="images/us2.png" alt="Our happiest memory together">
+              </div>
+              <figcaption>Krystelle🌸</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="love-section timer-section" aria-labelledby="timerTitle">
+        <div class="section-inner">
+          <h2 id="timerTitle">Our Love Timer ⏳</h2>
+          <div class="timer-grid" aria-live="polite">
+            <div class="time-card">
+              <span class="time-value" data-time="days">0</span>
+              <span class="time-label">Days</span>
+            </div>
+            <div class="time-card">
+              <span class="time-value" data-time="hours">0</span>
+              <span class="time-label">Hours</span>
+            </div>
+            <div class="time-card">
+              <span class="time-value" data-time="minutes">0</span>
+              <span class="time-label">Minutes</span>
+            </div>
+            <div class="time-card">
+              <span class="time-value" data-time="seconds">0</span>
+              <span class="time-label">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="love-section reasons-section" aria-labelledby="reasonsTitle">
+        <div class="section-inner">
+          <h2 id="reasonsTitle">Reasons I Love You</h2>
+          <div class="reasons-grid">
+            <div class="reason-card">💗 Your beautiful smile</div>
+            <div class="reason-card">🌸 Your adorable laugh</div>
+            <div class="reason-card">🧸 Your warm hugs</div>
+            <div class="reason-card">☁️ The way you comfort me</div>
+            <div class="reason-card">🎀 Your caring heart</div>
+            <div class="reason-card">🌷 Your kindness</div>
+            <div class="reason-card">✨ Your personality</div>
+            <div class="reason-card">❤️ Simply because you're you</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="love-section notes-section" aria-labelledby="notesTitle">
+        <div class="section-inner">
+          <h2 id="notesTitle">Secret Love Notes</h2>
+          <div class="notes-grid">
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">You're my favorite notification 💌</span></span>
+              </span>
+            </button>
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">I still get butterflies every time I see you.</span></span>
+              </span>
+            </button>
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">Home is wherever you are.</span></span>
+              </span>
+            </button>
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">You're my greatest blessing.</span></span>
+              </span>
+            </button>
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">Every love song reminds me of you.</span></span>
+              </span>
+            </button>
+            <button class="note-heart romantic-trigger" type="button" aria-label="Reveal secret love note">
+              <span class="note-inner">
+                <span class="note-face note-front"><span class="note-shape"></span><span class="note-text">♡</span></span>
+                <span class="note-face note-back"><span class="note-shape"></span><span class="note-text">I'll always choose you.</span></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="ending-section" aria-labelledby="endingTitle">
+        <div class="ending-inner">
+          <div class="forever-heart" aria-hidden="true">♡</div>
+          <h2 id="endingTitle">I Love You Forever ♡</h2>
+          <button class="hug-button romantic-trigger" id="hugButton" type="button">One More Hug 🩷</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="teddy" aria-hidden="true">🧸</div>
+  <div class="rose-border" aria-hidden="true">
+    <span>💗</span><span>🩷</span><span>💖</span><span>💕</span><span>💗</span><span>🩷</span><span>💖</span><span>💕</span>
+  </div>
+
+  <div class="love-modal" id="loveModal" role="dialog" aria-modal="true" aria-labelledby="modalMessage" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close romantic-trigger" id="closeModal" type="button" aria-label="Close love note">×</button>
+      <div class="modal-heart" aria-hidden="true">💕</div>
+      <p id="modalMessage">You'll always be my favorite person in every lifetime. 💕</p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
